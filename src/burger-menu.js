@@ -34,7 +34,7 @@ function hideHamburgerMenuOnResize() {
   window.addEventListener('resize', () => {
     const windowWidth = window.innerWidth;
 
-    if (windowWidth > 768) {
+    if (windowWidth > 850) {
       hamburgerMenuCheckbox.checked = false;
       hamburgerMenuSidebar.style.right = '100%';
       document.body.style.overflow = 'scroll';
