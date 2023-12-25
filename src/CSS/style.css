@@ -1,0 +1,202 @@
+@import '~normalize.css/normalize.css';
+
+/* Presets */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Header hamburger menu styling */
+  --bar-width: 18px;
+  --bar-height: 2px;
+  --hamburger-gap: 3px;
+  --foreground: #333;
+  --background: white;
+  --hamburger-margin: 8px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
+
+body {
+  font-size: 1rem;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Whidespread used classes */
+
+/* website primary header */
+.header__content {
+  display: grid;
+  position: relative;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem 5rem;
+  border-bottom: 3px solid #000;
+}
+.header__content-logo {
+}
+.header__content-logo-image {
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav-links-list {
+  display: flex;
+  gap: 4rem;
+  padding-top: 0.8rem;
+}
+.header__nav-link {
+  font-family: var(--font-family-primary, Lato);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--font-color-black, #000);
+  text-decoration: underline;
+  text-decoration-color: #00000000;
+  line-height: normal;
+  padding: 0.425rem;
+  border-radius: 0.5rem;
+  transition: text-decoration-color 250ms;
+  text-decoration-thickness: 0.625rem;
+  text-underline-offset: 1.9rem;
+}
+.header__nav-link:hover {
+  text-decoration-color: #000000ff;
+}
+.header__nav-link:active {
+  transition: text-underline-offset 100ms ease;
+  text-underline-offset: 0.5rem;
+}
+.header__nav--secondary {
+  align-self: flex-end;
+}
+.header__nav-button {
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+}
+.button--click-animation {
+  transition: transform 100ms;
+}
+.button--click-animation:hover {
+  transform: scale(1.05);
+}
+.button--click-animation:active {
+  transform: scale(1);
+}
+/* Hamburger menu */
+.header__hamburger-menu {
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
+
+  display: none;
+  position: absolute;
+  z-index: 11;
+  flex-direction: column;
+  gap: var(--hamburger-gap);
+  right: 1rem;
+  width: max-content;
+  cursor: pointer;
+}
+.header__hamburger-menu::before,
+.header__hamburger-menu::after,
+.header__hamburger-menu input {
+  content: '';
+  width: var(--bar-width);
+  height: var(--bar-height);
+  background-color: var(--foreground);
+  transform-origin: left center;
+  transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing),
+    translate var(--animation-timing), background-color var(--animation-timing);
+}
+.header__hamburger-menu input {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  pointer-events: none;
+  appearance: none;
+}
+.header__hamburger-menu:has(input:checked)::before {
+  width: var(--x-width);
+  rotate: 45deg;
+  translate: 0 calc(var(--bar-height) / -2);
+}
+.header__hamburger-menu:has(input:checked)::after {
+  width: var(--x-width);
+  rotate: -45deg;
+  translate: 0 calc(var(--bar-height) / 2);
+}
+.header__hamburger-menu input:checked {
+  width: 0;
+  opacity: 0;
+}
+.header__hamburger-menu-sidebar {
+  color: var(--background);
+  text-align: center;
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 100%;
+  width: 100dvw;
+  min-height: 100dvh;
+  background-color: #fde9c9f9;
+  transition: right var(--animation-timing);
+  translate: 0;
+}
+.header__hamburger-menu-sidebar > .header__nav-list-element > .header__nav-link {
+  font-family: var(--font-family-secondary, Raleway);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--font-color-primary, #333);
+  line-height: normal;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.2rem;
+}
+
+@media (width > 768px) {
+  /* website primary header */
+  .header__hamburger-menu-sidebar {
+    right: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* website primary header */
+  .header__hamburger-menu {
+    display: flex;
+  }
+  .header__hamburger-menu-sidebar {
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+}
