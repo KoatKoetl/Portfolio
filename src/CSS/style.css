@@ -13,10 +13,13 @@ html {
   --primary-font-color--white: #fff;
   --primary-bg-color--dark-blue: #393948;
   --primary-padding: 5dvw;
+  --h1-title-font-size--small: 1.25rem;
   --h2-title-font-size--normal: 2rem;
   --h2-title-font-size--small: 1.5rem;
   --h3-title-font-size--normal: 1.5rem;
   --h3-title-font-size--small: 1.25rem;
+  --h4-title-font-size--normal: 1rem;
+  --h4-title-font-size--small: 0.85rem;
 
   --font-size-text--small: 0.85rem;
 
@@ -64,6 +67,15 @@ p {
 }
 
 /* *Section start: Whidespread used classes */
+.section-title--h2 {
+  font-size: var(--h2-title-font-size--normal);
+}
+.section-title--h3 {
+  font-size: var(--h3-title-font-size--normal);
+}
+.section-title--h4 {
+  font-size: var(--h4-title-font-size--normal);
+}
 
 /* *Section start: website primary header */
 .header__content {
@@ -200,7 +212,6 @@ p {
   max-width: 600px;
 }
 .about-me__title {
-  font-size: var(--h2-title-font-size--normal);
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -237,12 +248,10 @@ p {
 
 /* *Section start: Homeland section */
 .homeland__title {
-  font-size: var(--h3-title-font-size--normal);
   text-align: center;
   margin-bottom: 1rem;
 }
 .homeland__content-title {
-  font-size: var(--h2-title-font-size--normal);
   text-align: center;
   letter-spacing: 0.1rem;
   margin: 0 auto 2rem;
@@ -320,6 +329,44 @@ p {
   border-radius: 1rem;
 }
 
+/* *Section start: skills section */
+.skills__content {
+  padding: 2rem 0;
+}
+.skills_content-title {
+  text-align: center;
+  padding: 1rem 0;
+}
+.skills__content-cards {
+  padding: 1rem 15dvw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  border-top: 3px solid var(--secondary-font-color--gray);
+  border-bottom: 3px solid var(--secondary-font-color--gray);
+}
+.skills__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+}
+.skills__card:hover {
+  border-bottom: 2px solid var(--secondary-font-color--gray);
+}
+.skills__card-icon {
+  max-width: 75px;
+}
+.skills__card-icon:hover {
+  transform: scale(1.1);
+}
+.skills__card-title {
+  font-size: 1.25rem;
+}
+
 @media screen and (width < 1000px) {
   /* *Section start: about-me section */
   .about-me__content {
@@ -343,6 +390,11 @@ p {
   }
   .homeland__list-item {
     text-align: center;
+  }
+
+  /* *Section start: skills section */
+  .skills__content-cards {
+    padding: 1rem 5dvw;
   }
 }
 
@@ -372,10 +424,36 @@ p {
   }
 }
 
+@media screen and (width < 768px) {
+  /* *Section start: Whidespread used classes */
+
+  /* *Section start: skills section */
+  .skills__card {
+    gap: 0.5rem;
+  }
+  .skills__card-icon {
+    max-width: 50px;
+  }
+}
+
 @media screen and (width < 450px) {
+  /* *Section start: Whidespread used classes */
+  .section-title--h2 {
+    font-size: var(--h2-title-font-size--small);
+  }
+  .section-title--h3 {
+    font-size: var(--h3-title-font-size--small);
+  }
+  .section-title--h4 {
+    font-size: var(--h4-title-font-size--small);
+  }
+  .section__text {
+    font-size: var(--font-size-text--small);
+  }
+
   /* *Section start: Primary header*/
   .header__content-title {
-    font-size: var(--h3-title-font-size--small);
+    font-size: var(--h1-title-font-size--small);
   }
 
   /* *Section start: All content section */
@@ -390,12 +468,7 @@ p {
   }
   .about-me__content {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-  .about-me__title {
-    font-size: var(--h2-title-font-size--small);
-  }
-  .about-me__text-span {
-    font-size: var(--font-size-text--small);
+    margin-bottom: 2rem;
   }
   .about-me__social-media-image {
     width: 42px;
@@ -403,12 +476,6 @@ p {
   }
 
   /* *Section start: Homeland section */
-  .homeland__content-title {
-    font-size: var(--h2-title-font-size--small);
-  }
-  .homeland__item-title {
-    font-size: var(--font-size-text--small);
-  }
   .homeland__country-block {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
@@ -416,16 +483,14 @@ p {
     width: 250px;
     height: auto;
   }
-  .homeland__title {
-    font-size: var(--h3-title-font-size--small);
-  }
-  .homeland__item-value {
-    font-size: var(--font-size-text--small);
-  }
   .homeland__info-message {
-    font-size: var(--font-size-text--small);
     padding: 1rem;
     max-width: 12rem;
+  }
+
+  /* *Section start: skills section */
+  .skills__content {
+    padding: 0;
   }
 }
 
