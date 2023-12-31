@@ -41,6 +41,7 @@ class Country {
       // Store flag image link
       countryData_Object.flags.svg && this.flagImageLink.push(countryData_Object.flags.svg);
 
+      // Call render function inside promise(Otherwise data will not load on page)
       this.renderCountryData();
     });
   }
@@ -48,12 +49,13 @@ class Country {
   renderCountryData() {
     if (this.storeData.length === 6 && this.flagImageLink[0]) {
       for (let i = 0; i < this.listItems.length; i++) {
-        this.listItems[i].innerHTML = `<span class='homeland__item-value'> ${this.storeData[i]}</span>`;
+        this.listItems[i].textContent = `${this.storeData[i]}`;
       }
       this.countryFlagImage.src = this.flagImageLink[0];
     }
   }
 
+  // Push message to the missing data value
   noAvailableData() {
     this.storeData.push('No available information');
   }
