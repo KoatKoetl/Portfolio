@@ -39,9 +39,7 @@ class Country {
       timeZones ? this.storeData.push(timeZones.join(', ')) : this.noAvailableData();
 
       // Store flag image link
-      countryData_Object.flags.svg
-        ? this.flagImageLink.push(countryData_Object.flags.svg)
-        : this.flagImageLink.push('../dist/assets/White-flag__no-available-info.png');
+      countryData_Object.flags.svg && this.flagImageLink.push(countryData_Object.flags.svg);
 
       this.renderCountryData();
     });
