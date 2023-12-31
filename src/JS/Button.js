@@ -5,6 +5,7 @@ class Button {
     this.timeoutHideMessage = undefined;
   }
 
+  // Add logic for info button from homeland section
   onClick_infoButton() {
     this.infoMessage.style.visibility = 'hidden';
     this.infoMessage.style.opacity = '0';
