@@ -405,6 +405,7 @@ p {
   }
   .header__hamburger-menu {
     display: flex;
+    padding: 0.5rem;
   }
   .header__hamburger-menu-sidebar {
     display: flex;
