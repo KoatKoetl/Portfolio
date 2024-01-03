@@ -5,7 +5,7 @@ describe('Test skills data', () => {
   const skillSet = new SkillSets(data_AllSkills);
 
   test('Check missing data values', () => {
-    const getSkillValues = skillSet.check_dataMissing();
+    const getSkillValues = skillSet.check_dataIntegrity();
 
     getSkillValues.forEach((skill) => {
       if (!skill.name) {
