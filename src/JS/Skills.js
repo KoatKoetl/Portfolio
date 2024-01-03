@@ -6,7 +6,7 @@ class SkillSets {
   }
 
   // Check if data_AllSkills missing at all, and change name and imageURL to default values
-  check_dataMissing() {
+  check_dataIntegrity() {
     const dataLength = this.allSkills.length;
 
     if (dataLength !== 0) {
@@ -26,13 +26,13 @@ class SkillSets {
 
   // Render the skillSet on page
   render_skills() {
-    const verified_SkillsData = this.check_dataMissing();
+    const verified_SkillsData = this.check_dataIntegrity();
     const skills_section = document.querySelector('.skills__content-cards');
 
     verified_SkillsData.forEach((skill) => {
       skills_section.innerHTML += `<div class = 'skills__card'>
         <img src = '${skill.imageURL}' alt = '${skill.name} icon' class = 'skills__card-icon'>
-        <h4 class = 'skills__card-title section-title--h4'>${skill.name}</h4>
+        <h4 class = 'skills__card-title section__title--h4'>${skill.name}</h4>
       </div>`;
     });
   }
