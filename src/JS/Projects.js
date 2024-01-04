@@ -59,7 +59,6 @@ class Projects {
   render_Projects() {
     this.store_Projects();
     this.check_ProjectDataIntegrity();
-    console.log(projects);
 
     projects.forEach((project) => {
       projects_content.innerHTML += `
