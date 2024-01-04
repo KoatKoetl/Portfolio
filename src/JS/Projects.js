@@ -18,7 +18,7 @@ class Projects {
 
   store_Projects() {
     this.create_NewProject(
-      `../assets/website-image__clothes-store.png`,
+      `../assets/website-image__clothes-store.avif`,
       `TheOdinProject---Admin_Dashboard-exercise`,
       `This project is free figma layout that I found on Figma website. <br>
         That project was built to test how good my skills are and how I will use all the skills I have learned.<br>
@@ -29,7 +29,7 @@ class Projects {
       `https://github.com/KoatKoetl/Landing_Website-template--ClothesStore`
     );
     this.create_NewProject(
-      `../assets/website-image__education.png`,
+      `../assets/website-image__education.avif`,
       `Simple-website-template__Sort-of-Education-website`,
       `This project is free figma layout that I found on Figma website. <br>
       That is first project after I finished with The Odin Project HTML, CSS and JS lessons. It's first full project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>
@@ -64,7 +64,7 @@ class Projects {
       projects_content.innerHTML += `
     <div class = 'projects__project-block'>
         <div class = 'projects__image-block'>
-            <img src = '${project.imageURL}' class = 'projects__image'>
+            <img src = '${project.imageURL}' class = 'projects__image' alt='Project: ${project.projectTitle} main page image'>
         </div>
         <div class='projects__info-block'>
             <h3 class = 'projects__item-title section__title--h3'>${project.projectTitle}</h3>
@@ -74,8 +74,8 @@ class Projects {
             </div>
             <p class = 'projects__technologies section__text'><b>Technologies: <br></b> ${project.technologies}</p>
             <div class = 'projects__nav'>
-                <a href = '${project.websiteURL}' class = 'projects__nav-link section__text' target='_blank'>Live Preview <img src='../assets/website-svgrepo-com.svg' class='projects__link-icon projects__link-icon--webpage'></a>
-                <a href = '${project.GitHubURL}' class = 'projects__nav-link section__text' target='_blank'>GitHub <img src='../assets/github-svgrepo-com--project-link-icon.svg' class='projects__link-icon projects__link-icon--github'></a>
+                <a href = '${project.websiteURL}' class = 'projects__nav-link section__text' target='_blank'>Live Preview <img src='../assets/website-svgrepo-com.svg' class='projects__link-icon projects__link-icon--webpage' alt='Webpage dark icon'></a>
+                <a href = '${project.GitHubURL}' class = 'projects__nav-link section__text' target='_blank'>GitHub <img src='../assets/github-svgrepo-com--project-link-icon.svg' class='projects__link-icon projects__link-icon--github' alt='GitHub dark icon'></a>
             </div>
         </div> 
     </div>`;
