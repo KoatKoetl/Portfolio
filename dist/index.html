@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="./assets/section-icon.svg" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  <script defer src="bundlef01bc90258da7f0bd433.js"></script></head>
+  <body>
+    <header class="header header--primary">
+      <div class="header__content">
+        <div class="header__content-logo">
+          <h1 class="header__content-title">Web-Dev Stanislav</h1>
+        </div>
+
+        <nav class="header__nav header__nav--primary">
+          <ul class="header__nav-links-list">
+            <li class="header__nav-list-element"><a href="#about-me" class="header__nav-link">About me</a></li>
+            <li class="header__nav-list-element"><a href="#homeland" class="header__nav-link">About Homeland</a></li>
+            <li class="header__nav-list-element"><a href="#skills" class="header__nav-link">Skills</a></li>
+            <li class="header__nav-list-element"><a href="#projects" class="header__nav-link">My projects</a></li>
+          </ul>
+        </nav>
+
+        <label class="header__hamburger-menu">
+          <input type="checkbox" class="header__hamburger-menu-checkbox" />
+        </label>
+        <ul class="header__hamburger-menu-sidebar">
+          <li class="header__nav-list-element"><a href="#about-me" class="header__nav-link">About me</a></li>
+          <li class="header__nav-list-element"><a href="#homeland" class="header__nav-link">Homeland</a></li>
+          <li class="header__nav-list-element"><a href="#skills" class="header__nav-link">Skills</a></li>
+          <li class="header__nav-list-element"><a href="#projects" class="header__nav-link">My projects</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="all-content">
+      <main class="about-me" id="about-me" aria-labelledby="about-me__section-title">
+        <div class="about-me__content">
+          <div class="about-me__photo-block">
+            <img src="../assets/my-photo.avif" alt="Selfie of me" class="about-me__photo" width="400" height="300" />
+          </div>
+          <div class="about-me__text-content">
+            <h2 class="about-me__title section__title--h2" id="about-me__section-title">About me</h2>
+            <p class="about-me__text">
+              <span class="about-me__text-span section__text">
+                Hello my name is
+                <strong>Stanislav</strong>
+                and I'm fresh graduate of Summer 2023.
+              </span>
+              <span class="about-me__text-span section__text">
+                I am a computer technician by education. All my training was connected with CS but mostly with hardware.
+              </span>
+              <span class="about-me__text-span section__text">
+                We also had classes related to different programming languages, such as: C#, C++, Assembler and of course HTML, CSS,
+                JavaScript. These classes were not so frequent but after graduating from college I decided that I wanted to become a
+                Front-End Web Developer.
+              </span>
+              <span class="about-me__text-span section__text">
+                So I started self-studying via the internet and free courses (mostly The Odin Project and a little bit of FreeCodeCamp).
+              </span>
+            </p>
+
+            <h2 class="about-me__title section__title--h2">Social media</h2>
+            <div class="about-me__social-media-block">
+              <a href="#" class="about-me__social-media-link">
+                <img
+                  src="../assets/linkedin-svgrepo-com.svg"
+                  alt="linkedIn icon"
+                  class="about-me__social-media-image"
+                  width="48"
+                  height="48"
+                />
+              </a>
+              <a href="#" class="about-me__social-media-link">
+                <img src="../assets/indeed-svgrepo-com.svg" alt="indeed icon" class="about-me__social-media-image" width="48" height="48" />
+              </a>
+              <a href="#" class="about-me__social-media-link">
+                <img
+                  src="../assets/glassdoor-svgrepo-com.svg"
+                  alt="glassdoor icon"
+                  class="about-me__social-media-image"
+                  width="48"
+                  height="48"
+                />
+              </a>
+              <a href="https://github.com/KoatKoetl" class="about-me__social-media-link" target="_blank">
+                <img
+                  src="../assets/github-142-svgrepo-com.svg"
+                  alt="github icon"
+                  class="about-me__social-media-image"
+                  width="48"
+                  height="48"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <section class="homeland" aria-labelledby="homeland__section" id="homeland">
+        <div class="homeland__content">
+          <h2 class="homeland__content-title section__title--h2" id="homeland__section">Information about my homeland</h2>
+          <h3 class="homeland__title section__title--h3">The Republic of Moldova</h3>
+          <div class="homeland__country-block">
+            <div class="homeland__text-block">
+              <div class="homeland__info-button-block">
+                <button class="homeland__button homeland__info-button" aria-label="Information button"></button>
+                <p class="homeland__info-message section__text">
+                  This block information is based on free API(https://restcountries.com/).
+                  <br />
+                  All values are get from restcountries.com and rendered on page.
+                  <br />
+                  If you see values with message
+                  <br />
+                  "No available information",
+                  <br />
+                  It could be bug on my website or missing data from restcountries.com.
+                </p>
+              </div>
+
+              <ul class="homeland__list">
+                <li class="homeland__list-item">
+                  <h4 class="homeland__item-title section__title--h4">Region:</h4>
+                  <span class="homeland__item-value section__text">No available information</span>
+                </li>
+                <li class="homeland__list-item">
+                  <h4 class="homeland__item-title section__title--h4">Capital:</h4>
+                  <span class="homeland__item-value section__text">No available information</span>
+                </li>
+                <li class="homeland__list-item">
+                  <h4 class="homeland__item-title section__title--h4">Speaking languages:</h4>
+                  <span class="homeland__item-value section__text">No available information</span>
+                </li>
+                <li class="homeland__list-item">
+                  <h4 class="homeland__item-title section__title--h4">Currencies:</h4>
+                  <span class="homeland__item-value section__text">No available information</span>
+                </li>
+                <li class="homeland__list-item">
+                  <h4 class="homeland__item-title section__title--h4">Population:</h4>
+                  <span class="homeland__item-value section__text">No available information</span>
+                </li>
+                <li class="homeland__list-item">
+                  <h4 class="homeland__item-title section__title--h4">Time zone:</h4>
+                  <span class="homeland__item-value section__text">No available information</span>
+                </li>
+              </ul>
+            </div>
+            <div class="homeland__image-block">
+              <h3 class="homeland__flag-title section__title--h3">National flag</h3>
+              <img
+                src="../assets/missing-flag-image.avif"
+                alt="Country National Flag"
+                class="homeland__image"
+                width="400"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="skills" id="skills" aria-labelledby="skills__section-title">
+      <div class="skills__content">
+        <h2 class="skills_content-title section__title--h2" id="skills__section-title">Technologies & Tools</h2>
+        <div class="skills__content-cards"></div>
+      </div>
+    </section>
+    <section class="projects" aria-labelledby="projects__section-title" id="projects">
+      <h2 class="projects__title section__title--h2" id="projects__section-title">My Projects</h2>
+      <div class="projects__content"></div>
+    </section>
+  </body>
+</html>
