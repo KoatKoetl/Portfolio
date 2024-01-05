@@ -496,8 +496,8 @@ var Projects = /*#__PURE__*/function () {
   }, {
     key: "store_Projects",
     value: function store_Projects() {
-      this.create_NewProject("../assets/website-image__clothes-store.avif", "TheOdinProject---Admin_Dashboard-exercise", "This project is free figma layout that I found on Figma website. <br>\n        That project was built to test how good my skills are and how I will use all the skills I have learned.<br>\n        If you want to see the website you can use the link 'Live Preview'. <br>\n        Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Landing_Website-template--ClothesStore/", "https://github.com/KoatKoetl/Landing_Website-template--ClothesStore");
-      this.create_NewProject("../assets/website-image__education.avif", "Simple-website-template__Sort-of-Education-website", "This project is free figma layout that I found on Figma website. <br>\n      That is first project after I finished with The Odin Project HTML, CSS and JS lessons. It's first full project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>\n      I think the code will be not as good as it could be. But I tried to do my best in that project.<br>\n      If you want to see the website you can use the link - 'Live Preview'<br>\n      Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/", "https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file");
+      this.create_NewProject("assets/website-image__clothes-store.avif", "TheOdinProject---Admin_Dashboard-exercise", "This project is free figma layout that I found on Figma website. <br>\n        That project was built to test how good my skills are and how I will use all the skills I have learned.<br>\n        If you want to see the website you can use the link 'Live Preview'. <br>\n        Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Landing_Website-template--ClothesStore/", "https://github.com/KoatKoetl/Landing_Website-template--ClothesStore");
+      this.create_NewProject("assets/website-image__education.avif", "Simple-website-template__Sort-of-Education-website", "This project is free figma layout that I found on Figma website. <br>\n      That is first project after I finished with The Odin Project HTML, CSS and JS lessons. It's first full project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>\n      I think the code will be not as good as it could be. But I tried to do my best in that project.<br>\n      If you want to see the website you can use the link - 'Live Preview'<br>\n      Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/", "https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file");
       // this.create_NewProject('name2', 'home2', 'data2');
     }
   }, {
@@ -506,7 +506,7 @@ var Projects = /*#__PURE__*/function () {
       _Data_Projects_Data__WEBPACK_IMPORTED_MODULE_1__["default"].forEach(function (project) {
         Object.keys(project).forEach(function (key) {
           if (key === 'imageURL' && !project['imageURL']) {
-            project['imageURL'] = '../assets/missing-flag-image.png';
+            project['imageURL'] = 'assets/missing-flag-image.png';
           }
           if (!project[key]) {
             project[key] = 'No available information';
@@ -520,7 +520,7 @@ var Projects = /*#__PURE__*/function () {
       this.store_Projects();
       this.check_ProjectDataIntegrity();
       _Data_Projects_Data__WEBPACK_IMPORTED_MODULE_1__["default"].forEach(function (project) {
-        projects_content.innerHTML += "\n    <div class = 'projects__project-block'>\n        <div class = 'projects__image-block'>\n            <img src = '".concat(project.imageURL, "' class = 'projects__image' alt='Project: ").concat(project.projectTitle, " main page image'>\n        </div>\n        <div class='projects__info-block'>\n            <h3 class = 'projects__item-title section__title--h3'>").concat(project.projectTitle, "</h3>\n            <div class='projects__desctiption-block'>\n            <h4 class='projects__description-title section__title--h4'>About this project</h4>\n            <p class = 'projects__content-description section__text'>").concat(project.description, "</p>\n            </div>\n            <p class = 'projects__technologies section__text'><b>Technologies: <br></b> ").concat(project.technologies, "</p>\n            <div class = 'projects__nav'>\n                <a href = '").concat(project.websiteURL, "' class = 'projects__nav-link section__text' target='_blank'>Live Preview <img src='../assets/website-svgrepo-com.svg' class='projects__link-icon projects__link-icon--webpage' alt='Webpage dark icon'></a>\n                <a href = '").concat(project.GitHubURL, "' class = 'projects__nav-link section__text' target='_blank'>GitHub <img src='../assets/github-svgrepo-com--project-link-icon.svg' class='projects__link-icon projects__link-icon--github' alt='GitHub dark icon'></a>\n            </div>\n        </div> \n    </div>");
+        projects_content.innerHTML += "\n    <div class = 'projects__project-block'>\n        <div class = 'projects__image-block'>\n            <img src = '".concat(project.imageURL, "' class = 'projects__image' alt='Project: ").concat(project.projectTitle, " main page image'>\n        </div>\n        <div class='projects__info-block'>\n            <h3 class = 'projects__item-title section__title--h3'>").concat(project.projectTitle, "</h3>\n            <div class='projects__desctiption-block'>\n            <h4 class='projects__description-title section__title--h4'>About this project</h4>\n            <p class = 'projects__content-description section__text'>").concat(project.description, "</p>\n            </div>\n            <p class = 'projects__technologies section__text'><b>Technologies: <br></b> ").concat(project.technologies, "</p>\n            <div class = 'projects__nav'>\n                <a href = '").concat(project.websiteURL, "' class = 'projects__nav-link section__text' target='_blank'>Live Preview <img src='assets/website-svgrepo-com.svg' class='projects__link-icon projects__link-icon--webpage' alt='Webpage dark icon'></a>\n                <a href = '").concat(project.GitHubURL, "' class = 'projects__nav-link section__text' target='_blank'>GitHub <img src='assets/github-svgrepo-com--project-link-icon.svg' class='projects__link-icon projects__link-icon--github' alt='GitHub dark icon'></a>\n            </div>\n        </div> \n    </div>");
       });
       var allProjects = document.querySelectorAll('.projects__project-block');
       allProjects.forEach(function (project) {
@@ -580,7 +580,7 @@ var SkillSets = /*#__PURE__*/function () {
             skill.name = 'No info';
           }
           if (!skill.imageURL) {
-            skill.imageURL = '../assets/missing-skill-image.svg';
+            skill.imageURL = 'assets/missing-skill-image.svg';
           }
           return {
             name: skill.name,
@@ -8639,4 +8639,4 @@ __webpack_require__("./src/assets sync recursive ^\\.\\/.*$");
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlef01bc90258da7f0bd433.js.map
+//# sourceMappingURL=bundle2230baaa240fe3d080ea.js.map
