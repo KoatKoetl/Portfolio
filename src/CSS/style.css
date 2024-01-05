@@ -542,6 +542,13 @@ p {
   height: 24px;
 }
 
+@media screen and (height <= 650px) {
+  /* *Section start: homeland section */
+  #homeland {
+    scroll-margin-top: -500px;
+  }
+}
+
 @media screen and (width < 1000px) {
   /* *Section start: website primary header */
   .header__nav--primary {
