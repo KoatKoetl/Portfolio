@@ -430,25 +430,25 @@ __webpack_require__.r(__webpack_exports__);
 // Add skill name and link to image to display skill on page
 var data_AllSkills = [{
   name: 'HMTL5',
-  imageURL: '../assets/html-5-svgrepo-com.svg'
+  imageURL: 'assets/html-5-svgrepo-com.svg'
 }, {
   name: 'CSS3',
-  imageURL: '../assets/css-3-svgrepo-com.svg'
+  imageURL: 'assets/css-3-svgrepo-com.svg'
 }, {
   name: 'JavaScript',
-  imageURL: '../assets/javascript-svgrepo-com.svg'
+  imageURL: 'assets/javascript-svgrepo-com.svg'
 }, {
   name: 'NPM',
-  imageURL: '../assets/npm-svgrepo-com.svg'
+  imageURL: 'assets/npm-svgrepo-com.svg'
 }, {
   name: 'Webpack',
-  imageURL: '../assets/webpack-svgrepo-com.svg'
+  imageURL: 'assets/webpack-svgrepo-com.svg'
 }, {
   name: 'Git',
-  imageURL: '../assets/git-svgrepo-com.svg'
+  imageURL: 'assets/git-svgrepo-com.svg'
 }, {
   name: 'Jest',
-  imageURL: '../assets/jest-svgrepo-com.svg'
+  imageURL: 'assets/jest-svgrepo-com.svg'
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data_AllSkills);
 
@@ -8639,4 +8639,4 @@ __webpack_require__("./src/assets sync recursive ^\\.\\/.*$");
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle2230baaa240fe3d080ea.js.map
+//# sourceMappingURL=bundle9e460ccdb0e5bfac1d04.js.map
