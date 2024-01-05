@@ -1,3 +1,4 @@
+import ScrollReveal from 'scrollreveal';
 import projects from './Data/Projects_Data';
 const projects_content = document.querySelector('.projects__content');
 
@@ -80,6 +81,9 @@ class Projects {
         </div> 
     </div>`;
     });
+
+    const allProjects = document.querySelectorAll('.projects__project-block');
+    allProjects.forEach((project) => ScrollReveal().reveal(project, { distance: '200px', reset: true, origin: 'left' }));
   }
 }
 

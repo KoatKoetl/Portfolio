@@ -3,6 +3,7 @@ import render_CountrySectionData from './Country-section.js';
 import enable_InfoButton from './Button.js';
 import { enable_SkillSection } from './Skills.js';
 import render_ProjectsSection from './Projects.js';
+import { enable_AllAnimations } from './Animations.js';
 
 export default function enableApp() {
   enable_HeaderBurgerMenu();
@@ -10,4 +11,5 @@ export default function enableApp() {
   enable_InfoButton();
   enable_SkillSection();
   render_ProjectsSection();
+  enable_AllAnimations();
 }
