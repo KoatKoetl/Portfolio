@@ -16,7 +16,7 @@ class SkillSets {
           skill.name = 'No info';
         }
         if (!skill.imageURL) {
-          skill.imageURL = '../assets/missing-skill-image.svg';
+          skill.imageURL = 'assets/missing-skill-image.svg';
         }
         return { name: skill.name, imageURL: skill.imageURL };
       });
