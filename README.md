@@ -24,7 +24,7 @@ I put a lot of effort to done it, but most of time I spent on the actual website
     <li>NPM</li>
 </ul>
 <h2>Brief preview</h2>
-<img src='https://ibb.co/bdDGT4P'>
+<a href="https://ibb.co/bdDGT4P"><img src="https://i.ibb.co/9YSd6xN/main-section.jpg" alt="main-section" border="0" /></a>
 <img src='../assets/main-section.avif'>
 <img src='assets/homeland-skills_sections.avif'>
 <img src='assets/projects-section.avif'>
