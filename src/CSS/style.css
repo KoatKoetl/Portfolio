@@ -440,6 +440,7 @@ p {
 }
 .projects__content {
   display: grid;
+  grid-gap: 5px;
 }
 .projects__project-block {
   color: white;
@@ -539,6 +540,25 @@ p {
 .projects__link-icon {
   width: 24px;
   height: 24px;
+}
+
+/* *Section start: footer section */
+
+.footer__content {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+.footer__copyright-text {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.footer__link {
+  color: var(--primary-font-color);
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.footer__link:hover {
+  color: var(--primary-bg-color);
 }
 
 @media screen and (height <= 768px) {
