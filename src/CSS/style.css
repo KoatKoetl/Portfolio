@@ -542,7 +542,7 @@ p {
   height: 24px;
 }
 
-@media screen and (height <= 650px) {
+@media screen and (height <= 768px) {
   /* *Section start: homeland section */
   #homeland {
     scroll-margin-top: -500px;
@@ -609,23 +609,6 @@ p {
 
 @media screen and (width < 768px) {
   /* *Section start: Whidespread used classes */
-
-  /* *Section start: skills section */
-  .skills__card {
-    gap: 0.5rem;
-  }
-  .skills__card-icon {
-    max-width: 50px;
-  }
-
-  /* *Section start: projects section */
-  .projects__project-block {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  }
-}
-
-@media screen and (width < 450px) {
-  /* *Section start: Whidespread used classes */
   .section__title--h2 {
     font-size: var(--h2-title-font-size--small);
   }
@@ -653,10 +636,10 @@ p {
   /* *Section start: About-me main section */
   .about-me__photo {
     height: auto;
-    min-width: 200px;
+    min-width: 300px;
   }
   .about-me__content {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-bottom: 2rem;
   }
   .about-me__social-media-image {
@@ -680,6 +663,12 @@ p {
   /* *Section start: skills section */
   .skills__content {
     padding: 0;
+  }
+  .skills__card {
+    gap: 0.5rem;
+  }
+  .skills__card-icon {
+    max-width: 50px;
   }
 
   /* *Section start: projects section */
