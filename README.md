@@ -24,6 +24,6 @@ I put a lot of effort to done it, but most of time I spent on the actual website
     <li>NPM</li>
 </ul>
 <h2>Brief preview</h2>
-<img src='assets/main-section.avif'>
+<img src='../assets/main-section.avif'>
 <img src='assets/homeland-skills_sections.avif'>
 <img src='assets/projects-section.avif'>
