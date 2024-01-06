@@ -7,6 +7,8 @@ const data_AllSkills = [
   { name: 'Webpack', imageURL: 'assets/webpack-svgrepo-com.svg' },
   { name: 'Git', imageURL: 'assets/git-svgrepo-com.svg' },
   { name: 'Jest', imageURL: 'assets/jest-svgrepo-com.svg' },
+  { name: 'ESLint', imageURL: 'assets/eslint-svgrepo-com.svg' },
+  { name: 'Babel', imageURL: 'assets/babel-svgrepo-com.svg' },
 ];
 
 export default data_AllSkills;
