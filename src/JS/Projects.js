@@ -41,14 +41,49 @@ class Projects {
       `https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/`,
       `https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file`
     );
-    // this.create_NewProject('name2', 'home2', 'data2');
+    this.create_NewProject(
+      `assets/weather-app.avif`,
+      `TheOdinProject---Weather-App`,
+      `This is small task from The Odin project course. <br>
+      It is a project that checks how I understand the basics how API works. <br>
+      Basically it's a small weather app that shows forecast with 7 hours shift.<br>
+      If you want to see the work you can use the link - 'Live Preview' <br>
+      Repository can be accessed using - 'Github link'`,
+      `HTML5, CSS3, JavaScript`,
+      `https://koatkoetl.github.io/TheOdinProject---Weather-App/`,
+      `https://github.com/KoatKoetl/TheOdinProject---Weather-App`
+    );
+    this.create_NewProject(
+      `assets/etch-a-sketch.avif`,
+      `TheOdinProject---Etch-A-Sketch-exercise`,
+      `This is an exercise from The Odin Project course. <br>
+      It's aimed to improve JS skills mostly DOM manipulation skills. <br>
+      The game itself is based on real mechanical drawing toy invented by André Cassagnes. <br>
+      If you want to see the work you can use the link - 'Live Preview' <br>
+      Repository can be accessed using - 'Github link'`,
+      'HTML, CSS, JS',
+      `https://koatkoetl.github.io/TheOdinProject---Etch-A-Sketch-exercise/`,
+      `https://github.com/KoatKoetl/TheOdinProject---Etch-A-Sketch-exercise`
+    );
+    this.create_NewProject(
+      `assets/library.avif`,
+      `TheOdinProject---Library-exercise`,
+      `This is an exercise from The Odin Project course. <br>
+      This exercise is focused on building a small library app. <br>
+      Exercising with the library should improve your skills in using JavaScript functions and working with DOM elements. <br>
+      If you want to see the work you can use the link - 'Live Preview' <br>
+      Repository can be accessed using - 'Github link'`,
+      'HTML, CSS, JS',
+      `https://koatkoetl.github.io/TheOdinProject---Library-exercise`,
+      `https://github.com/KoatKoetl/TheOdinProject---Library-exercise`
+    );
   }
 
   check_ProjectDataIntegrity() {
     projects.forEach((project) => {
       Object.keys(project).forEach((key) => {
         if (key === 'imageURL' && !project['imageURL']) {
-          project['imageURL'] = 'assets/missing-flag-image.png';
+          project['imageURL'] = 'assets/missing-flag-image.avif';
         }
         if (!project[key]) {
           project[key] = 'No available information';
