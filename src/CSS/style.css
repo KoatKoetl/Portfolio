@@ -47,7 +47,6 @@ body {
   color: var(--primary-font-color);
   position: relative;
   background-color: var(--body-primary-bg-color);
-  overflow-x: hidden;
 }
 
 h1,
