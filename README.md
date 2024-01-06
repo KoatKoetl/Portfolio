@@ -25,6 +25,5 @@ I put a lot of effort to done it, but most of time I spent on the actual website
 </ul>
 <h2>Brief preview</h2>
 <a href="https://ibb.co/bdDGT4P"><img src="https://i.ibb.co/9YSd6xN/main-section.jpg" alt="main-section" border="0" /></a>
-<img src='../assets/main-section.avif'>
-<img src='assets/homeland-skills_sections.avif'>
-<img src='assets/projects-section.avif'>
+<a href="https://ibb.co/SQvtPZq"><img src="https://i.ibb.co/4sN870B/homeland-skills-sections.jpg" alt="homeland-skills-sections" border="0" /></a>
+<a href="https://ibb.co/kcxzb4G"><img src="https://i.ibb.co/5c6Cpr1/projects-section.jpg" alt="projects-section" border="0" /></a>
