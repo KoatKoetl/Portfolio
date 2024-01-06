@@ -550,7 +550,11 @@ p {
 }
 .footer__copyright-text {
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+.footer__contact {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 .footer__link {
   color: var(--primary-font-color);
