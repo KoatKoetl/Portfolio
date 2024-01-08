@@ -1,23 +1,25 @@
 class Button {
   constructor() {
-    this.infoButton = document.querySelector('.homeland__info-button');
-    this.infoMessage = document.querySelector('.homeland__info-message');
+    // this.infoButton = document.querySelector('.homeland__info-button');
+    // this.infoMessage = document.querySelector('.homeland__info-message');
     this.timeoutHideMessage = undefined;
   }
 
   // Add logic for info button from homeland section
   onClick_infoButton() {
-    this.infoMessage.style.visibility = 'hidden';
-    this.infoMessage.style.opacity = '0';
-    this.infoMessage.style.transition = 'opacity 300ms ease-in-out, visibility 300ms';
-    this.infoButton.addEventListener('click', () => {
-      this.infoMessage.style.visibility === 'hidden'
-        ? ((this.infoMessage.style.visibility = 'visible'), (this.infoMessage.style.opacity = '1'))
-        : ((this.infoMessage.style.visibility = 'hidden'), (this.infoMessage.style.opacity = '0'));
-      if (this.infoMessage.style.visibility === 'visible') {
+    const infoButton = document.querySelector('.homeland__info-button');
+    const infoMessage = document.querySelector('.homeland__info-message');
+    infoMessage.style.visibility = 'hidden';
+    infoMessage.style.opacity = '0';
+    infoButton.addEventListener('click', () => {
+      infoMessage.style.transition = 'opacity 300ms ease-in-out, visibility 300ms';
+      infoMessage.style.visibility === 'hidden'
+        ? ((infoMessage.style.visibility = 'visible'), (infoMessage.style.opacity = '1'))
+        : ((infoMessage.style.visibility = 'hidden'), (infoMessage.style.opacity = '0'));
+      if (infoMessage.style.visibility === 'visible') {
         this.timeoutHideMessage = setTimeout(() => {
-          this.infoMessage.style.visibility = 'hidden';
-          this.infoMessage.style.opacity = '0';
+          infoMessage.style.visibility = 'hidden';
+          infoMessage.style.opacity = '0';
         }, 10000);
       } else {
         clearTimeout(this.timeoutHideMessage);
