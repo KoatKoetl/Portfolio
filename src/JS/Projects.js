@@ -19,7 +19,7 @@ class Projects {
 
   store_Projects() {
     this.create_NewProject(
-      `assets/website-image__clothes-store.avif`,
+      `assets/website-image__clothes-store.webp`,
       `Landing_Website-template--ClothesStore`,
       `This project is free figma layout that I found on Figma website. <br>
         That project was built to test how good my skills are and how I will use all the skills I have learned.<br>
@@ -30,7 +30,7 @@ class Projects {
       `https://github.com/KoatKoetl/Landing_Website-template--ClothesStore`
     );
     this.create_NewProject(
-      `assets/website-image__education.avif`,
+      `assets/website-image__education.webp`,
       `Simple-website-template__Sort-of-Education-website`,
       `This project is free figma layout that I found on Figma website. <br>
       That is first project after I finished with The Odin Project HTML, CSS and JS lessons. It's first full project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>
@@ -42,7 +42,7 @@ class Projects {
       `https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file`
     );
     this.create_NewProject(
-      `assets/weather-app.avif`,
+      `assets/weather-app.webp`,
       `TheOdinProject---Weather-App`,
       `This is small task from The Odin project course. <br>
       It is a project that checks how I understand the basics how API works. <br>
@@ -54,7 +54,7 @@ class Projects {
       `https://github.com/KoatKoetl/TheOdinProject---Weather-App`
     );
     this.create_NewProject(
-      `assets/etch-a-sketch.avif`,
+      `assets/etch-a-sketch.webp`,
       `TheOdinProject---Etch-A-Sketch-exercise`,
       `This is an exercise from The Odin Project course. <br>
       It's aimed to improve JS skills mostly DOM manipulation skills. <br>
@@ -66,7 +66,7 @@ class Projects {
       `https://github.com/KoatKoetl/TheOdinProject---Etch-A-Sketch-exercise`
     );
     this.create_NewProject(
-      `assets/library.avif`,
+      `assets/library.webp`,
       `TheOdinProject---Library-exercise`,
       `This is an exercise from The Odin Project course. <br>
       This exercise is focused on building a small library app. <br>
@@ -83,7 +83,7 @@ class Projects {
     projects.forEach((project) => {
       Object.keys(project).forEach((key) => {
         if (key === 'imageURL' && !project['imageURL']) {
-          project['imageURL'] = 'assets/missing-flag-image.avif';
+          project['imageURL'] = 'assets/missing-flag-image.webp';
         }
         if (!project[key]) {
           project[key] = 'No available information';
