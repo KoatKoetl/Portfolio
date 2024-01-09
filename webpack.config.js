@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'development',
@@ -25,10 +26,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
@@ -50,13 +47,21 @@ module.exports = {
         test: /\.webp$/i,
         type: 'asset/resource',
       },
+      {
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+      },
     ],
   },
   plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'CSS/style.css',
+    }),
     new HtmlWebpackPlugin({
       title: 'Title',
       filename: 'index.html',
       template: 'src/template.html',
+      inject: 'head',
     }),
     // new BundleAnalyzerPlugin(),
   ],
