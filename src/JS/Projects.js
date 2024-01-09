@@ -20,7 +20,7 @@ class Projects {
   store_Projects() {
     this.create_NewProject(
       `assets/website-image__clothes-store.avif`,
-      `TheOdinProject---Admin_Dashboard-exercise`,
+      `Landing_Website-template--ClothesStore`,
       `This project is free figma layout that I found on Figma website. <br>
         That project was built to test how good my skills are and how I will use all the skills I have learned.<br>
         If you want to see the website you can use the link 'Live Preview'. <br>
