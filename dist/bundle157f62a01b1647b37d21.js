@@ -504,11 +504,11 @@ var Projects = /*#__PURE__*/function () {
   }, {
     key: "store_Projects",
     value: function store_Projects() {
-      this.create_NewProject("assets/website-image__clothes-store.avif", "Landing_Website-template--ClothesStore", "This project is free figma layout that I found on Figma website. <br>\n        That project was built to test how good my skills are and how I will use all the skills I have learned.<br>\n        If you want to see the website you can use the link 'Live Preview'. <br>\n        Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Landing_Website-template--ClothesStore/", "https://github.com/KoatKoetl/Landing_Website-template--ClothesStore");
-      this.create_NewProject("assets/website-image__education.avif", "Simple-website-template__Sort-of-Education-website", "This project is free figma layout that I found on Figma website. <br>\n      That is first project after I finished with The Odin Project HTML, CSS and JS lessons. It's first full project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>\n      I think the code will be not as good as it could be. But I tried to do my best in that project.<br>\n      If you want to see the website you can use the link - 'Live Preview'<br>\n      Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/", "https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file");
-      this.create_NewProject("assets/weather-app.avif", "TheOdinProject---Weather-App", "This is small task from The Odin project course. <br>\n      It is a project that checks how I understand the basics how API works. <br>\n      Basically it's a small weather app that shows forecast with 7 hours shift.<br>\n      If you want to see the work you can use the link - 'Live Preview' <br>\n      Repository can be accessed using - 'Github link'", "HTML5, CSS3, JavaScript", "https://koatkoetl.github.io/TheOdinProject---Weather-App/", "https://github.com/KoatKoetl/TheOdinProject---Weather-App");
-      this.create_NewProject("assets/etch-a-sketch.avif", "TheOdinProject---Etch-A-Sketch-exercise", "This is an exercise from The Odin Project course. <br>\n      It's aimed to improve JS skills mostly DOM manipulation skills. <br>\n      The game itself is based on real mechanical drawing toy invented by Andr\xE9 Cassagnes. <br>\n      If you want to see the work you can use the link - 'Live Preview' <br>\n      Repository can be accessed using - 'Github link'", 'HTML, CSS, JS', "https://koatkoetl.github.io/TheOdinProject---Etch-A-Sketch-exercise/", "https://github.com/KoatKoetl/TheOdinProject---Etch-A-Sketch-exercise");
-      this.create_NewProject("assets/library.avif", "TheOdinProject---Library-exercise", "This is an exercise from The Odin Project course. <br>\n      This exercise is focused on building a small library app. <br>\n      Exercising with the library should improve your skills in using JavaScript functions and working with DOM elements. <br>\n      If you want to see the work you can use the link - 'Live Preview' <br>\n      Repository can be accessed using - 'Github link'", 'HTML, CSS, JS', "https://koatkoetl.github.io/TheOdinProject---Library-exercise", "https://github.com/KoatKoetl/TheOdinProject---Library-exercise");
+      this.create_NewProject("assets/website-image__clothes-store.webp", "Landing_Website-template--ClothesStore", "This project is free figma layout that I found on Figma website. <br>\n        That project was built to test how good my skills are and how I will use all the skills I have learned.<br>\n        If you want to see the website you can use the link 'Live Preview'. <br>\n        Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Landing_Website-template--ClothesStore/", "https://github.com/KoatKoetl/Landing_Website-template--ClothesStore");
+      this.create_NewProject("assets/website-image__education.webp", "Simple-website-template__Sort-of-Education-website", "This project is free figma layout that I found on Figma website. <br>\n      That is first project after I finished with The Odin Project HTML, CSS and JS lessons. It's first full project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>\n      I think the code will be not as good as it could be. But I tried to do my best in that project.<br>\n      If you want to see the website you can use the link - 'Live Preview'<br>\n      Repository can be accessed using - 'Github link'", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/", "https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file");
+      this.create_NewProject("assets/weather-app.webp", "TheOdinProject---Weather-App", "This is small task from The Odin project course. <br>\n      It is a project that checks how I understand the basics how API works. <br>\n      Basically it's a small weather app that shows forecast with 7 hours shift.<br>\n      If you want to see the work you can use the link - 'Live Preview' <br>\n      Repository can be accessed using - 'Github link'", "HTML5, CSS3, JavaScript", "https://koatkoetl.github.io/TheOdinProject---Weather-App/", "https://github.com/KoatKoetl/TheOdinProject---Weather-App");
+      this.create_NewProject("assets/etch-a-sketch.webp", "TheOdinProject---Etch-A-Sketch-exercise", "This is an exercise from The Odin Project course. <br>\n      It's aimed to improve JS skills mostly DOM manipulation skills. <br>\n      The game itself is based on real mechanical drawing toy invented by Andr\xE9 Cassagnes. <br>\n      If you want to see the work you can use the link - 'Live Preview' <br>\n      Repository can be accessed using - 'Github link'", 'HTML, CSS, JS', "https://koatkoetl.github.io/TheOdinProject---Etch-A-Sketch-exercise/", "https://github.com/KoatKoetl/TheOdinProject---Etch-A-Sketch-exercise");
+      this.create_NewProject("assets/library.webp", "TheOdinProject---Library-exercise", "This is an exercise from The Odin Project course. <br>\n      This exercise is focused on building a small library app. <br>\n      Exercising with the library should improve your skills in using JavaScript functions and working with DOM elements. <br>\n      If you want to see the work you can use the link - 'Live Preview' <br>\n      Repository can be accessed using - 'Github link'", 'HTML, CSS, JS', "https://koatkoetl.github.io/TheOdinProject---Library-exercise", "https://github.com/KoatKoetl/TheOdinProject---Library-exercise");
     }
   }, {
     key: "check_ProjectDataIntegrity",
@@ -516,7 +516,7 @@ var Projects = /*#__PURE__*/function () {
       _Data_Projects_Data__WEBPACK_IMPORTED_MODULE_1__["default"].forEach(function (project) {
         Object.keys(project).forEach(function (key) {
           if (key === 'imageURL' && !project['imageURL']) {
-            project['imageURL'] = 'assets/missing-flag-image.avif';
+            project['imageURL'] = 'assets/missing-flag-image.webp';
           }
           if (!project[key]) {
             project[key] = 'No available information';
@@ -2539,28 +2539,28 @@ var map = {
 	"./babel-svgrepo-com.svg": "./src/assets/babel-svgrepo-com.svg",
 	"./css-3-svgrepo-com.svg": "./src/assets/css-3-svgrepo-com.svg",
 	"./eslint-svgrepo-com.svg": "./src/assets/eslint-svgrepo-com.svg",
-	"./etch-a-sketch.avif": "./src/assets/etch-a-sketch.avif",
+	"./etch-a-sketch.webp": "./src/assets/etch-a-sketch.webp",
 	"./git-svgrepo-com.svg": "./src/assets/git-svgrepo-com.svg",
 	"./github-142-svgrepo-com.svg": "./src/assets/github-142-svgrepo-com.svg",
 	"./github-svgrepo-com--project-link-icon.svg": "./src/assets/github-svgrepo-com--project-link-icon.svg",
 	"./glassdoor-svgrepo-com.svg": "./src/assets/glassdoor-svgrepo-com.svg",
-	"./homeland-skills_sections.avif": "./src/assets/homeland-skills_sections.avif",
+	"./homeland-skills_sections.webp": "./src/assets/homeland-skills_sections.webp",
 	"./html-5-svgrepo-com.svg": "./src/assets/html-5-svgrepo-com.svg",
 	"./indeed-svgrepo-com.svg": "./src/assets/indeed-svgrepo-com.svg",
 	"./information-circle-svgrepo-com.svg": "./src/assets/information-circle-svgrepo-com.svg",
 	"./javascript-svgrepo-com.svg": "./src/assets/javascript-svgrepo-com.svg",
 	"./jest-svgrepo-com.svg": "./src/assets/jest-svgrepo-com.svg",
-	"./library.avif": "./src/assets/library.avif",
+	"./library.webp": "./src/assets/library.webp",
 	"./linkedin-svgrepo-com.svg": "./src/assets/linkedin-svgrepo-com.svg",
-	"./main-section.avif": "./src/assets/main-section.avif",
-	"./missing-flag-image.avif": "./src/assets/missing-flag-image.avif",
-	"./my-photo.avif": "./src/assets/my-photo.avif",
+	"./main-section.webp": "./src/assets/main-section.webp",
+	"./missing-flag-image.webp": "./src/assets/missing-flag-image.webp",
+	"./my-photo.webp": "./src/assets/my-photo.webp",
 	"./npm-svgrepo-com.svg": "./src/assets/npm-svgrepo-com.svg",
-	"./projects-section.avif": "./src/assets/projects-section.avif",
-	"./weather-app.avif": "./src/assets/weather-app.avif",
+	"./projects-section.webp": "./src/assets/projects-section.webp",
+	"./weather-app.webp": "./src/assets/weather-app.webp",
 	"./webpack-svgrepo-com.svg": "./src/assets/webpack-svgrepo-com.svg",
-	"./website-image__clothes-store.avif": "./src/assets/website-image__clothes-store.avif",
-	"./website-image__education.avif": "./src/assets/website-image__education.avif",
+	"./website-image__clothes-store.webp": "./src/assets/website-image__clothes-store.webp",
+	"./website-image__education.webp": "./src/assets/website-image__education.webp",
 	"./website-svgrepo-com.svg": "./src/assets/website-svgrepo-com.svg"
 };
 
@@ -2619,14 +2619,14 @@ module.exports = __webpack_require__.p + "assets/eslint-svgrepo-com.svg";
 
 /***/ }),
 
-/***/ "./src/assets/etch-a-sketch.avif":
+/***/ "./src/assets/etch-a-sketch.webp":
 /*!***************************************!*\
-  !*** ./src/assets/etch-a-sketch.avif ***!
+  !*** ./src/assets/etch-a-sketch.webp ***!
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/etch-a-sketch.avif";
+module.exports = __webpack_require__.p + "assets/etch-a-sketch.webp";
 
 /***/ }),
 
@@ -2674,14 +2674,14 @@ module.exports = __webpack_require__.p + "assets/glassdoor-svgrepo-com.svg";
 
 /***/ }),
 
-/***/ "./src/assets/homeland-skills_sections.avif":
+/***/ "./src/assets/homeland-skills_sections.webp":
 /*!**************************************************!*\
-  !*** ./src/assets/homeland-skills_sections.avif ***!
+  !*** ./src/assets/homeland-skills_sections.webp ***!
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/homeland-skills_sections.avif";
+module.exports = __webpack_require__.p + "assets/homeland-skills_sections.webp";
 
 /***/ }),
 
@@ -2740,14 +2740,14 @@ module.exports = __webpack_require__.p + "assets/jest-svgrepo-com.svg";
 
 /***/ }),
 
-/***/ "./src/assets/library.avif":
+/***/ "./src/assets/library.webp":
 /*!*********************************!*\
-  !*** ./src/assets/library.avif ***!
+  !*** ./src/assets/library.webp ***!
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/library.avif";
+module.exports = __webpack_require__.p + "assets/library.webp";
 
 /***/ }),
 
@@ -2762,36 +2762,36 @@ module.exports = __webpack_require__.p + "assets/linkedin-svgrepo-com.svg";
 
 /***/ }),
 
-/***/ "./src/assets/main-section.avif":
+/***/ "./src/assets/main-section.webp":
 /*!**************************************!*\
-  !*** ./src/assets/main-section.avif ***!
+  !*** ./src/assets/main-section.webp ***!
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/main-section.avif";
+module.exports = __webpack_require__.p + "assets/main-section.webp";
 
 /***/ }),
 
-/***/ "./src/assets/missing-flag-image.avif":
+/***/ "./src/assets/missing-flag-image.webp":
 /*!********************************************!*\
-  !*** ./src/assets/missing-flag-image.avif ***!
+  !*** ./src/assets/missing-flag-image.webp ***!
   \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/missing-flag-image.avif";
+module.exports = __webpack_require__.p + "assets/missing-flag-image.webp";
 
 /***/ }),
 
-/***/ "./src/assets/my-photo.avif":
+/***/ "./src/assets/my-photo.webp":
 /*!**********************************!*\
-  !*** ./src/assets/my-photo.avif ***!
+  !*** ./src/assets/my-photo.webp ***!
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/my-photo.avif";
+module.exports = __webpack_require__.p + "assets/my-photo.webp";
 
 /***/ }),
 
@@ -2806,25 +2806,25 @@ module.exports = __webpack_require__.p + "assets/npm-svgrepo-com.svg";
 
 /***/ }),
 
-/***/ "./src/assets/projects-section.avif":
+/***/ "./src/assets/projects-section.webp":
 /*!******************************************!*\
-  !*** ./src/assets/projects-section.avif ***!
+  !*** ./src/assets/projects-section.webp ***!
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/projects-section.avif";
+module.exports = __webpack_require__.p + "assets/projects-section.webp";
 
 /***/ }),
 
-/***/ "./src/assets/weather-app.avif":
+/***/ "./src/assets/weather-app.webp":
 /*!*************************************!*\
-  !*** ./src/assets/weather-app.avif ***!
+  !*** ./src/assets/weather-app.webp ***!
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/weather-app.avif";
+module.exports = __webpack_require__.p + "assets/weather-app.webp";
 
 /***/ }),
 
@@ -2839,25 +2839,25 @@ module.exports = __webpack_require__.p + "assets/webpack-svgrepo-com.svg";
 
 /***/ }),
 
-/***/ "./src/assets/website-image__clothes-store.avif":
+/***/ "./src/assets/website-image__clothes-store.webp":
 /*!******************************************************!*\
-  !*** ./src/assets/website-image__clothes-store.avif ***!
+  !*** ./src/assets/website-image__clothes-store.webp ***!
   \******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/website-image__clothes-store.avif";
+module.exports = __webpack_require__.p + "assets/website-image__clothes-store.webp";
 
 /***/ }),
 
-/***/ "./src/assets/website-image__education.avif":
+/***/ "./src/assets/website-image__education.webp":
 /*!**************************************************!*\
-  !*** ./src/assets/website-image__education.avif ***!
+  !*** ./src/assets/website-image__education.webp ***!
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/website-image__education.avif";
+module.exports = __webpack_require__.p + "assets/website-image__education.webp";
 
 /***/ }),
 
@@ -7115,4 +7115,4 @@ __webpack_require__("./src/assets sync recursive ^\\.\\/.*$");
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlecd1bbfa909fd14972d35.js.map
+//# sourceMappingURL=bundle157f62a01b1647b37d21.js.map

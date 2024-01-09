@@ -657,7 +657,7 @@ p {
 
 /* *Section start: Homeland section */
 .homeland__content {
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 .homeland__title {
   text-align: center;
@@ -687,6 +687,7 @@ p {
 }
 .homeland__info-button-block {
   position: absolute;
+  z-index: 10;
 }
 .homeland__info-button {
   position: absolute;
@@ -741,8 +742,9 @@ p {
   visibility: hidden;
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   left: 100%;
+  min-width: 35svw;
   margin-left: 1.5rem;
   padding: 1.5rem;
   background-color: #665599e5;
@@ -760,6 +762,8 @@ p {
   padding: 2rem;
   background-color: var(--primary-bg-color);
   box-shadow: #7465a1 0px 5px 20px;
+  position: relative;
+  z-index: 0;
 }
 .skills_content-title {
   text-align: center;
@@ -1041,7 +1045,6 @@ p {
   }
   .homeland__info-message {
     padding: 1rem;
-    max-width: 12rem;
   }
 
   /* *Section start: skills section */
@@ -1067,6 +1070,13 @@ p {
   }
   .projects__technologies > b {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (width < 500px) {
+  /* *Section start: Homeland section */
+  .homeland__info-message {
+    width: 60svw;
   }
 }
 
