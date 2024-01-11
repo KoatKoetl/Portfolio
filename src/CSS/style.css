@@ -215,7 +215,8 @@ p {
 }
 .about-me__photo {
   border: none;
-  border-radius: 0 8rem;
+  border-radius: 2rem;
+  max-height: 450px;
 }
 .about-me__text-content {
   position: relative;
@@ -666,12 +667,12 @@ p {
 
   /* *Section start: About-me main section */
   .about-me__photo {
-    height: auto;
-    min-width: 300px;
+    max-height: 350px;
   }
   .about-me__content {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin-bottom: 2rem;
+    grid-gap: 1.5rem;
   }
   .about-me__social-media-image {
     width: 42px;
@@ -720,6 +721,12 @@ p {
   /* *Section start: Homeland section */
   .homeland__info-message {
     width: 60svw;
+  }
+
+  /* *Section start: about-me section */
+  .about-me__content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 2rem;
   }
 }
 
