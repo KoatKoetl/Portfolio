@@ -1,5 +1,5 @@
-import data_AllSkills from './Data/Skills_Data';
 import ScrollReveal from 'scrollreveal';
+import data_AllSkills from './Data/Skills_Data';
 
 class SkillSets {
   constructor(data_Skills) {
@@ -39,7 +39,7 @@ class SkillSets {
 
     // Animate skill__card to appear one after another
     const allSkillCards = document.querySelectorAll('.skills__card');
-    allSkillCards.forEach((card, index) => ScrollReveal().reveal(card, { distance: '100px', origin: 'top', delay: index * 500 }));
+    allSkillCards.forEach((card, index) => ScrollReveal().reveal(card, { distance: '50px', origin: 'top', delay: index * 300 }));
   }
 }
 
