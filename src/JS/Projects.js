@@ -22,9 +22,8 @@ class Projects {
       `assets/website-image__clothes-store.webp`,
       `Landing_Website-template--ClothesStore`,
       `This project is free figma layout that I found on Figma website. <br>
-        That project was built to test how good my skills are and how I will use all the skills I have learned.<br>
-        If you want to see the website you can use the link 'Live Preview'. <br>
-        Repository can be accessed using - 'Github link'`,
+        That project was built to test how good my skills are and how I will use all the skills I have learned, through The Odin Project course.<br>
+       `,
       `HTML5(BEM method), CSS3, JavaScript, Webpack5.`,
       `https://koatkoetl.github.io/Landing_Website-template--ClothesStore/`,
       `https://github.com/KoatKoetl/Landing_Website-template--ClothesStore`
@@ -33,10 +32,9 @@ class Projects {
       `assets/website-image__education.webp`,
       `Simple-website-template__Sort-of-Education-website`,
       `This project is free figma layout that I found on Figma website. <br>
-      That is first project after I finished with The Odin Project HTML, CSS and JS lessons. It's first full project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>
-      I think the code will be not as good as it could be. But I tried to do my best in that project.<br>
-      If you want to see the website you can use the link - 'Live Preview'<br>
-      Repository can be accessed using - 'Github link'`,
+      That is first project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>
+      The code is not as good as it could be, because of lack of experience, but I, really tried to do my best in that project.<br>
+      `,
       `HTML5(BEM method), CSS3, JavaScript, Webpack5.`,
       `https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/`,
       `https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file`
@@ -47,8 +45,7 @@ class Projects {
       `This is small task from The Odin project course. <br>
       It is a project that checks how I understand the basics how API works. <br>
       Basically it's a small weather app that shows forecast with 7 hours shift.<br>
-      If you want to see the work you can use the link - 'Live Preview' <br>
-      Repository can be accessed using - 'Github link'`,
+      `,
       `HTML5, CSS3, JavaScript`,
       `https://koatkoetl.github.io/TheOdinProject---Weather-App/`,
       `https://github.com/KoatKoetl/TheOdinProject---Weather-App`
@@ -59,8 +56,7 @@ class Projects {
       `This is an exercise from The Odin Project course. <br>
       It's aimed to improve JS skills mostly DOM manipulation skills. <br>
       The game itself is based on real mechanical drawing toy invented by André Cassagnes. <br>
-      If you want to see the work you can use the link - 'Live Preview' <br>
-      Repository can be accessed using - 'Github link'`,
+      `,
       'HTML, CSS, JS',
       `https://koatkoetl.github.io/TheOdinProject---Etch-A-Sketch-exercise/`,
       `https://github.com/KoatKoetl/TheOdinProject---Etch-A-Sketch-exercise`
@@ -71,8 +67,7 @@ class Projects {
       `This is an exercise from The Odin Project course. <br>
       This exercise is focused on building a small library app. <br>
       Exercising with the library should improve your skills in using JavaScript functions and working with DOM elements. <br>
-      If you want to see the work you can use the link - 'Live Preview' <br>
-      Repository can be accessed using - 'Github link'`,
+      `,
       'HTML, CSS, JS',
       `https://koatkoetl.github.io/TheOdinProject---Library-exercise`,
       `https://github.com/KoatKoetl/TheOdinProject---Library-exercise`
