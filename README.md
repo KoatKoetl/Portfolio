@@ -11,7 +11,6 @@ I put a lot of effort to done it, but most of time I spent on the actual website
 <p>I have four main sections that I included:</p>
 <ul>
     <li>About me</li>
-    <li>Homeland</li>
     <li>Skills</li>
     <li>Projects</li>
 </ul>
