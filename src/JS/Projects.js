@@ -39,39 +39,6 @@ class Projects {
       `https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/`,
       `https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file`
     );
-    this.create_NewProject(
-      `assets/weather-app.webp`,
-      `TheOdinProject---Weather-App`,
-      `This is small task from The Odin project course. <br>
-      It is a project that checks how I understand the basics how API works. <br>
-      Basically it's a small weather app that shows forecast with 7 hours shift.<br>
-      `,
-      `HTML5, CSS3, JavaScript`,
-      `https://koatkoetl.github.io/TheOdinProject---Weather-App/`,
-      `https://github.com/KoatKoetl/TheOdinProject---Weather-App`
-    );
-    this.create_NewProject(
-      `assets/etch-a-sketch.webp`,
-      `TheOdinProject---Etch-A-Sketch-exercise`,
-      `This is an exercise from The Odin Project course. <br>
-      It's aimed to improve JS skills mostly DOM manipulation skills. <br>
-      The game itself is based on real mechanical drawing toy invented by André Cassagnes. <br>
-      `,
-      'HTML, CSS, JS',
-      `https://koatkoetl.github.io/TheOdinProject---Etch-A-Sketch-exercise/`,
-      `https://github.com/KoatKoetl/TheOdinProject---Etch-A-Sketch-exercise`
-    );
-    this.create_NewProject(
-      `assets/library.webp`,
-      `TheOdinProject---Library-exercise`,
-      `This is an exercise from The Odin Project course. <br>
-      This exercise is focused on building a small library app. <br>
-      Exercising with the library should improve your skills in using JavaScript functions and working with DOM elements. <br>
-      `,
-      'HTML, CSS, JS',
-      `https://koatkoetl.github.io/TheOdinProject---Library-exercise`,
-      `https://github.com/KoatKoetl/TheOdinProject---Library-exercise`
-    );
   }
 
   check_ProjectDataIntegrity() {
