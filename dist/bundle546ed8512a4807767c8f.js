@@ -266,9 +266,6 @@ var Projects = /*#__PURE__*/function () {
     value: function store_Projects() {
       this.create_NewProject("assets/website-image__clothes-store.webp", "Landing_Website-template--ClothesStore", "This project is free figma layout that I found on Figma website. <br>\n        That project was built to test how good my skills are and how I will use all the skills I have learned, through The Odin Project course.<br>\n       ", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Landing_Website-template--ClothesStore/", "https://github.com/KoatKoetl/Landing_Website-template--ClothesStore");
       this.create_NewProject("assets/website-image__education.webp", "Simple-website-template__Sort-of-Education-website", "This project is free figma layout that I found on Figma website. <br>\n      That is first project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>\n      The code is not as good as it could be, because of lack of experience, but I, really tried to do my best in that project.<br>\n      ", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/", "https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file");
-      this.create_NewProject("assets/weather-app.webp", "TheOdinProject---Weather-App", "This is small task from The Odin project course. <br>\n      It is a project that checks how I understand the basics how API works. <br>\n      Basically it's a small weather app that shows forecast with 7 hours shift.<br>\n      ", "HTML5, CSS3, JavaScript", "https://koatkoetl.github.io/TheOdinProject---Weather-App/", "https://github.com/KoatKoetl/TheOdinProject---Weather-App");
-      this.create_NewProject("assets/etch-a-sketch.webp", "TheOdinProject---Etch-A-Sketch-exercise", "This is an exercise from The Odin Project course. <br>\n      It's aimed to improve JS skills mostly DOM manipulation skills. <br>\n      The game itself is based on real mechanical drawing toy invented by Andr\xE9 Cassagnes. <br>\n      ", 'HTML, CSS, JS', "https://koatkoetl.github.io/TheOdinProject---Etch-A-Sketch-exercise/", "https://github.com/KoatKoetl/TheOdinProject---Etch-A-Sketch-exercise");
-      this.create_NewProject("assets/library.webp", "TheOdinProject---Library-exercise", "This is an exercise from The Odin Project course. <br>\n      This exercise is focused on building a small library app. <br>\n      Exercising with the library should improve your skills in using JavaScript functions and working with DOM elements. <br>\n      ", 'HTML, CSS, JS', "https://koatkoetl.github.io/TheOdinProject---Library-exercise", "https://github.com/KoatKoetl/TheOdinProject---Library-exercise");
     }
   }, {
     key: "check_ProjectDataIntegrity",
@@ -2755,4 +2752,4 @@ __webpack_require__("./src/assets sync recursive ^\\.\\/.*$");
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlee039b43fd463a2d69f9c.js.map
+//# sourceMappingURL=bundle546ed8512a4807767c8f.js.map
