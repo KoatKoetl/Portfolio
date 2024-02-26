@@ -200,9 +200,6 @@ var data_AllSkills = [{
   name: 'TailwindCSS',
   imageURL: 'assets/tailwind-svgrepo-com.svg'
 }, {
-  name: 'React',
-  imageURL: 'assets/react-svgrepo-com.svg'
-}, {
   name: 'Jest',
   imageURL: 'assets/jest-svgrepo-com.svg'
 }, {
@@ -220,6 +217,9 @@ var data_AllSkills = [{
 }, {
   name: 'NPM',
   imageURL: 'assets/npm-svgrepo-com.svg'
+}, {
+  name: 'React',
+  imageURL: 'assets/react-svgrepo-com.svg'
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data_AllSkills);
 
@@ -2318,6 +2318,7 @@ var map = {
 	"./my-photo.webp": "./src/assets/my-photo.webp",
 	"./npm-svgrepo-com.svg": "./src/assets/npm-svgrepo-com.svg",
 	"./projects-section.webp": "./src/assets/projects-section.webp",
+	"./react-svgrepo-com.svg": "./src/assets/react-svgrepo-com.svg",
 	"./tailwind-svgrepo-com.svg": "./src/assets/tailwind-svgrepo-com.svg",
 	"./weather-app.webp": "./src/assets/weather-app.webp",
 	"./webpack-svgrepo-com.svg": "./src/assets/webpack-svgrepo-com.svg",
@@ -2580,6 +2581,17 @@ module.exports = __webpack_require__.p + "assets/projects-section.webp";
 
 /***/ }),
 
+/***/ "./src/assets/react-svgrepo-com.svg":
+/*!******************************************!*\
+  !*** ./src/assets/react-svgrepo-com.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/react-svgrepo-com.svg";
+
+/***/ }),
+
 /***/ "./src/assets/tailwind-svgrepo-com.svg":
 /*!*********************************************!*\
   !*** ./src/assets/tailwind-svgrepo-com.svg ***!
@@ -2768,4 +2780,4 @@ __webpack_require__("./src/assets sync recursive ^\\.\\/.*$");
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle6e914efbdbd6516b4668.js.map
+//# sourceMappingURL=bundleb897b5b388a26987903b.js.map
