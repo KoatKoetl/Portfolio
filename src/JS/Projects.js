@@ -22,7 +22,9 @@ class Projects {
       `assets/website-image__clothes-store.webp`,
       `Landing_Website-template--ClothesStore`,
       `This project is free figma layout that I found on Figma website. <br>
-        That project was built to test how good my skills are and how I will use all the skills I have learned, through The Odin Project course.<br>
+      The project itself is a sort of clothes store. <br>
+      I used all my FrontEnd skills and build a responsive layout, that matches the figma design <br>
+      Also because it is not a customer job task I choose to add animation some of the buttons on page.
        `,
       `HTML5(BEM method), CSS3, JavaScript, Webpack5.`,
       `https://koatkoetl.github.io/Landing_Website-template--ClothesStore/`,
@@ -32,12 +34,25 @@ class Projects {
       `assets/website-image__education.webp`,
       `Simple-website-template__Sort-of-Education-website`,
       `This project is free figma layout that I found on Figma website. <br>
-      That is first project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>
-      The code is not as good as it could be, because of lack of experience, but I, really tried to do my best in that project.<br>
+      It is a sort of course website where is a lot of different sections about the prices, course links, packages and reviews. <br>
+      I build the website trying to stick to the figma design. <br>
+      Also I choose to add to some elements animations because it is a personal project. Otherwise, I would follow the clients' requirements.
       `,
       `HTML5(BEM method), CSS3, JavaScript, Webpack5.`,
       `https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/`,
-      `https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file`
+      `https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website`
+    );
+    this.create_NewProject(
+      `assets/website-image__my-favorite-music.webp`,
+      `My Favorite Music`,
+      `This is my personal project created using React and Tailwind for the first time. <br />
+      The design was created during the process of creating the page, and I managed to make it exactly as I imagined it.  <br />
+      The website itself contains sections of my favorite bands <br />
+      These are only two sections because they are all look the same, and two is enough to show all the functions and style design differences in them.
+      `,
+      `HTML5, CSS3, JS, React, TailwindCSS, Vite.`,
+      `https://koatkoetl.github.io/Music-Website/`,
+      `https://github.com/KoatKoetl/Music-Website`
     );
   }
 
