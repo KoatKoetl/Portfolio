@@ -200,6 +200,9 @@ var data_AllSkills = [{
   name: 'TailwindCSS',
   imageURL: 'assets/tailwind-svgrepo-com.svg'
 }, {
+  name: 'React',
+  imageURL: 'assets/react-svgrepo-com.svg'
+}, {
   name: 'Jest',
   imageURL: 'assets/jest-svgrepo-com.svg'
 }, {
@@ -264,8 +267,9 @@ var Projects = /*#__PURE__*/function () {
   }, {
     key: "store_Projects",
     value: function store_Projects() {
-      this.create_NewProject("assets/website-image__clothes-store.webp", "Landing_Website-template--ClothesStore", "This project is free figma layout that I found on Figma website. <br>\n        That project was built to test how good my skills are and how I will use all the skills I have learned, through The Odin Project course.<br>\n       ", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Landing_Website-template--ClothesStore/", "https://github.com/KoatKoetl/Landing_Website-template--ClothesStore");
-      this.create_NewProject("assets/website-image__education.webp", "Simple-website-template__Sort-of-Education-website", "This project is free figma layout that I found on Figma website. <br>\n      That is first project where I tried to use correct BEM structure, semantic tags, Webpack5 bundler...<br>\n      The code is not as good as it could be, because of lack of experience, but I, really tried to do my best in that project.<br>\n      ", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/", "https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website?tab=readme-ov-file");
+      this.create_NewProject("assets/website-image__clothes-store.webp", "Landing_Website-template--ClothesStore", "This project is free figma layout that I found on Figma website. <br>\n      The project itself is a sort of clothes store. <br>\n      I used all my FrontEnd skills and build a responsive layout, that matches the figma design <br>\n      Also because it is not a customer job task I choose to add animation some of the buttons on page.\n       ", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Landing_Website-template--ClothesStore/", "https://github.com/KoatKoetl/Landing_Website-template--ClothesStore");
+      this.create_NewProject("assets/website-image__education.webp", "Simple-website-template__Sort-of-Education-website", "This project is free figma layout that I found on Figma website. <br>\n      It is a sort of course website where is a lot of different sections about the prices, course links, packages and reviews. <br>\n      I build the website trying to stick to the figma design. <br>\n      Also I choose to add to some elements animations because it is a personal project. Otherwise, I would follow the clients' requirements.\n      ", "HTML5(BEM method), CSS3, JavaScript, Webpack5.", "https://koatkoetl.github.io/Simple-website-template__Sort-of-Education-website/", "https://github.com/KoatKoetl/Simple-website-template__Sort-of-Education-website");
+      this.create_NewProject("assets/website-image__my-favorite-music.webp", "My Favorite Music", "This is my personal project created using React and Tailwind for the first time. <br />\n      The design was created during the process of creating the page, and I managed to make it exactly as I imagined it.  <br />\n      The website itself contains sections of my favorite bands <br />\n      These are only two sections because they are all look the same, and two is enough to show all the functions and style design differences in them.\n      ", "HTML5, CSS3, JS, React, TailwindCSS, Vite.", "https://koatkoetl.github.io/Music-Website/", "https://github.com/KoatKoetl/Music-Website");
     }
   }, {
     key: "check_ProjectDataIntegrity",
@@ -2319,6 +2323,7 @@ var map = {
 	"./webpack-svgrepo-com.svg": "./src/assets/webpack-svgrepo-com.svg",
 	"./website-image__clothes-store.webp": "./src/assets/website-image__clothes-store.webp",
 	"./website-image__education.webp": "./src/assets/website-image__education.webp",
+	"./website-image__my-favorite-music.webp": "./src/assets/website-image__my-favorite-music.webp",
 	"./website-svgrepo-com.svg": "./src/assets/website-svgrepo-com.svg"
 };
 
@@ -2630,6 +2635,17 @@ module.exports = __webpack_require__.p + "assets/website-image__education.webp";
 
 /***/ }),
 
+/***/ "./src/assets/website-image__my-favorite-music.webp":
+/*!**********************************************************!*\
+  !*** ./src/assets/website-image__my-favorite-music.webp ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/website-image__my-favorite-music.webp";
+
+/***/ }),
+
 /***/ "./src/assets/website-svgrepo-com.svg":
 /*!********************************************!*\
   !*** ./src/assets/website-svgrepo-com.svg ***!
@@ -2752,4 +2768,4 @@ __webpack_require__("./src/assets sync recursive ^\\.\\/.*$");
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle546ed8512a4807767c8f.js.map
+//# sourceMappingURL=bundle6e914efbdbd6516b4668.js.map
