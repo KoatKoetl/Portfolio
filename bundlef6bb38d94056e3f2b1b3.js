@@ -197,6 +197,9 @@ var data_AllSkills = [{
   name: 'JavaScript',
   imageURL: 'assets/javascript-svgrepo-com.svg'
 }, {
+  name: 'React',
+  imageURL: 'assets/react-svgrepo-com.svg'
+}, {
   name: 'TailwindCSS',
   imageURL: 'assets/tailwind-svgrepo-com.svg'
 }, {
@@ -217,9 +220,6 @@ var data_AllSkills = [{
 }, {
   name: 'NPM',
   imageURL: 'assets/npm-svgrepo-com.svg'
-}, {
-  name: 'React',
-  imageURL: 'assets/react-svgrepo-com.svg'
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data_AllSkills);
 
@@ -2780,4 +2780,4 @@ __webpack_require__("./src/assets sync recursive ^\\.\\/.*$");
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleb897b5b388a26987903b.js.map
+//# sourceMappingURL=bundlef6bb38d94056e3f2b1b3.js.map
